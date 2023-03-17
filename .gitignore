@@ -1,0 +1,12 @@
+backups/
+natives-osx-x86_64/
+Xaero*/
+.DS_Store
+_MACOSX/
+logs/
+crash-reports/
+usercache.json
+usernamecache.json
+.mixin.out/
+saves/
+resourcepacks/*.zip
