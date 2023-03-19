@@ -1,6 +1,6 @@
 {
   "id": "311TC",
-  "minecraftArguments": "--tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType Forge",
+  "minecraftArguments": "--tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --tweakClass optifine.OptiFineForgeTweaker --username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType Forge",
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "jar": "311TC",
   "assetIndex": {
@@ -854,6 +854,9 @@
           }
         }
       ]
+    },
+    {
+      "name": "optifine:OptiFine:1.12.2_HD_U_G5:installer"
     }
   ],
   "downloads": {
@@ -1810,6 +1813,26 @@
       "type": "release",
       "time": "2021-12-13T12:40:03+08:00",
       "releaseTime": "2021-12-13T12:40:03+08:00"
+    },
+    {
+      "id": "optifine",
+      "version": "HD_U_G5",
+      "priority": 10000,
+      "arguments": {
+        "game": [
+          "--tweakClass",
+          "optifine.OptiFineTweaker"
+        ]
+      },
+      "mainClass": "net.minecraft.launchwrapper.Launch",
+      "libraries": [
+        {
+          "name": "optifine:OptiFine:1.12.2_HD_U_G5"
+        },
+        {
+          "name": "optifine:launchwrapper-of:2.2"
+        }
+      ]
     }
   ]
 }
