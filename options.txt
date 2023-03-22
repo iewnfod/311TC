@@ -4,19 +4,19 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:5
+renderDistance:6
 guiScale:2
-particles:0
+particles:1
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:3
 fancyGraphics:false
 ao:0
 renderClouds:false
-resourcePacks:["Emissive_TXF_optifine_2.4.zip","Authentic Shadows_1.11-1.12.zip","Hyper_realistic_sky_[v1.7].zip","cocricot_1.12.2_v1.11.0.zip"]
-incompatibleResourcePacks:["Hyper_realistic_sky_[v1.7].zip"]
+resourcePacks:[]
+incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
 chatVisibility:0
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:false
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
