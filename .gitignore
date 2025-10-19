@@ -24,3 +24,5 @@ servers.dat
 options.txt
 
 CustomSkinLoader/
+
+tmp/
