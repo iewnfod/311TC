@@ -21,3 +21,4 @@ config/*
 !InGameInfo.xml
 
 servers.dat
+options.txt
