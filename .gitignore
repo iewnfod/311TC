@@ -12,6 +12,7 @@ saves/
 resourcepacks/
 shaderpacks/
 311TC-natives/
-PCL/ImgCache/
+PCL/
 
 optionsshaders.txt
+*.log
