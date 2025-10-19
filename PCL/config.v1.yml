@@ -18,9 +18,9 @@ VersionOriginalSub: 2
 VersionArgumentIndieV2: true
 VersionAdvanceDisableJLW: false
 VersionAdvanceDisableRW: true
-VersionLaunchCount: 19
+VersionLaunchCount: 32
 VersionRamType: 1
-VersionRamCustom: 25
+VersionRamCustom: 21
 VersionArgumentJavaSelect: C:\Program Files\Dragonwell\8.26.25\bin\java.exe
-VersionAdvanceJvm: ''
+VersionAdvanceJvm: -d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods
 VersionAdvanceRenderer: 0

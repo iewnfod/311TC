@@ -9,9 +9,9 @@ usercache.json
 usernamecache.json
 .mixin.out/
 saves/
-resourcepacks/*.zip
+resourcepacks/
+shaderpacks/
 311TC-natives/
 PCL/ImgCache/
 
 optionsshaders.txt
-

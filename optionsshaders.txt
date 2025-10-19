@@ -1,10 +1,10 @@
-#Sun Oct 19 01:01:30 CST 2025
+#Sun Oct 19 19:28:18 CST 2025
 shaderPack=(internal)
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
-renderResMul=2.0
-shadowResMul=1.5
+renderResMul=1.0
+shadowResMul=1.0
 handDepthMul=0.125
 cloudShadow=false
 oldHandLight=default
