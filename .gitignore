@@ -19,3 +19,5 @@ optionsshaders.txt
 
 config/*
 !InGameInfo.xml
+
+servers.dat
