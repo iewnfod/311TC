@@ -17,5 +17,5 @@ PCL/
 optionsshaders.txt
 *.log
 
-config/
-!config/InGameInfo.xml
+config/*
+!InGameInfo.xml
